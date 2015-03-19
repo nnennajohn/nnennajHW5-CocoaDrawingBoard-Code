@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61133251A8858F900CEFB70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133241A8858F900CEFB70 /* AppDelegate.m */; };
+		C61133271A8858F900CEFB70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133261A8858F900CEFB70 /* main.m */; };
+		C611332C1A8858F900CEFB70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C611332B1A8858F900CEFB70 /* Images.xcassets */; };
+		C611332F1A8858F900CEFB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C611332D1A8858F900CEFB70 /* Main.storyboard */; };
+		C611333B1A8858FA00CEFB70 /* MJNashDrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C611333A1A8858FA00CEFB70 /* MJNashDrawingBoardTests.m */; };
+		C611334A1A88591700CEFB70 /* StockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133451A88591700CEFB70 /* StockViewController.m */; };
+		C611334B1A88591700CEFB70 /* ShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133471A88591700CEFB70 /* ShapesViewController.m */; };
+		C611334C1A88591700CEFB70 /* ArtisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133491A88591700CEFB70 /* ArtisticViewController.m */; };
+		C61133531A88592500CEFB70 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C611334E1A88592500CEFB70 /* LineChartView.m */; };
+		C61133541A88592500CEFB70 /* ShapesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133501A88592500CEFB70 /* ShapesView.m */; };
+		C61133551A88592500CEFB70 /* ArtisticView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61133521A88592500CEFB70 /* ArtisticView.m */; };
+		C611335B1A8859BA00CEFB70 /* RandomPercentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C611335A1A8859BA00CEFB70 /* RandomPercentGenerator.m */; };
+		C611335E1A885DED00CEFB70 /* blue-plaid-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = C611335D1A885DED00CEFB70 /* blue-plaid-pattern.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61133351A8858FA00CEFB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61133161A8858F900CEFB70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C611331D1A8858F900CEFB70;
+			remoteInfo = MJNashDrawingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C611331E1A8858F900CEFB70 /* MJNashDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJNashDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61133221A8858F900CEFB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61133231A8858F900CEFB70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C61133241A8858F900CEFB70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C61133261A8858F900CEFB70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C611332B1A8858F900CEFB70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C611332E1A8858F900CEFB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61133341A8858FA00CEFB70 /* MJNashDrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJNashDrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61133391A8858FA00CEFB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C611333A1A8858FA00CEFB70 /* MJNashDrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJNashDrawingBoardTests.m; sourceTree = "<group>"; };
+		C61133441A88591700CEFB70 /* StockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockViewController.h; sourceTree = "<group>"; };
+		C61133451A88591700CEFB70 /* StockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockViewController.m; sourceTree = "<group>"; };
+		C61133461A88591700CEFB70 /* ShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesViewController.h; sourceTree = "<group>"; };
+		C61133471A88591700CEFB70 /* ShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesViewController.m; sourceTree = "<group>"; };
+		C61133481A88591700CEFB70 /* ArtisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtisticViewController.h; sourceTree = "<group>"; };
+		C61133491A88591700CEFB70 /* ArtisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtisticViewController.m; sourceTree = "<group>"; };
+		C611334D1A88592500CEFB70 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		C611334E1A88592500CEFB70 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+		C611334F1A88592500CEFB70 /* ShapesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesView.h; sourceTree = "<group>"; };
+		C61133501A88592500CEFB70 /* ShapesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesView.m; sourceTree = "<group>"; };
+		C61133511A88592500CEFB70 /* ArtisticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtisticView.h; sourceTree = "<group>"; };
+		C61133521A88592500CEFB70 /* ArtisticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtisticView.m; sourceTree = "<group>"; };
+		C61133591A8859BA00CEFB70 /* RandomPercentGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPercentGenerator.h; sourceTree = "<group>"; };
+		C611335A1A8859BA00CEFB70 /* RandomPercentGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPercentGenerator.m; sourceTree = "<group>"; };
+		C611335D1A885DED00CEFB70 /* blue-plaid-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-plaid-pattern.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C611331B1A8858F900CEFB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61133311A8858FA00CEFB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61133151A8858F900CEFB70 = {
+			isa = PBXGroup;
+			children = (
+				C61133201A8858F900CEFB70 /* MJNashDrawingBoard */,
+				C61133371A8858FA00CEFB70 /* MJNashDrawingBoardTests */,
+				C611331F1A8858F900CEFB70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C611331F1A8858F900CEFB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C611331E1A8858F900CEFB70 /* MJNashDrawingBoard.app */,
+				C61133341A8858FA00CEFB70 /* MJNashDrawingBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61133201A8858F900CEFB70 /* MJNashDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C611335D1A885DED00CEFB70 /* blue-plaid-pattern.png */,
+				C61133581A88594800CEFB70 /* Base */,
+				C61133571A88593800CEFB70 /* View Controllers */,
+				C61133561A88592D00CEFB70 /* Views */,
+				C611335C1A8859C600CEFB70 /* Helpers */,
+				C61133211A8858F900CEFB70 /* Supporting Files */,
+			);
+			path = MJNashDrawingBoard;
+			sourceTree = "<group>";
+		};
+		C61133211A8858F900CEFB70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C61133221A8858F900CEFB70 /* Info.plist */,
+				C61133261A8858F900CEFB70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C61133371A8858FA00CEFB70 /* MJNashDrawingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C611333A1A8858FA00CEFB70 /* MJNashDrawingBoardTests.m */,
+				C61133381A8858FA00CEFB70 /* Supporting Files */,
+			);
+			path = MJNashDrawingBoardTests;
+			sourceTree = "<group>";
+		};
+		C61133381A8858FA00CEFB70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C61133391A8858FA00CEFB70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C61133561A88592D00CEFB70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C611334D1A88592500CEFB70 /* LineChartView.h */,
+				C611334E1A88592500CEFB70 /* LineChartView.m */,
+				C611334F1A88592500CEFB70 /* ShapesView.h */,
+				C61133501A88592500CEFB70 /* ShapesView.m */,
+				C61133511A88592500CEFB70 /* ArtisticView.h */,
+				C61133521A88592500CEFB70 /* ArtisticView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C61133571A88593800CEFB70 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C61133441A88591700CEFB70 /* StockViewController.h */,
+				C61133451A88591700CEFB70 /* StockViewController.m */,
+				C61133461A88591700CEFB70 /* ShapesViewController.h */,
+				C61133471A88591700CEFB70 /* ShapesViewController.m */,
+				C61133481A88591700CEFB70 /* ArtisticViewController.h */,
+				C61133491A88591700CEFB70 /* ArtisticViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C61133581A88594800CEFB70 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C61133231A8858F900CEFB70 /* AppDelegate.h */,
+				C61133241A8858F900CEFB70 /* AppDelegate.m */,
+				C611332B1A8858F900CEFB70 /* Images.xcassets */,
+				C611332D1A8858F900CEFB70 /* Main.storyboard */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C611335C1A8859C600CEFB70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C61133591A8859BA00CEFB70 /* RandomPercentGenerator.h */,
+				C611335A1A8859BA00CEFB70 /* RandomPercentGenerator.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C611331D1A8858F900CEFB70 /* MJNashDrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C611333E1A8858FA00CEFB70 /* Build configuration list for PBXNativeTarget "MJNashDrawingBoard" */;
+			buildPhases = (
+				C611331A1A8858F900CEFB70 /* Sources */,
+				C611331B1A8858F900CEFB70 /* Frameworks */,
+				C611331C1A8858F900CEFB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJNashDrawingBoard;
+			productName = MJNashDrawingBoard;
+			productReference = C611331E1A8858F900CEFB70 /* MJNashDrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61133331A8858FA00CEFB70 /* MJNashDrawingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61133411A8858FA00CEFB70 /* Build configuration list for PBXNativeTarget "MJNashDrawingBoardTests" */;
+			buildPhases = (
+				C61133301A8858FA00CEFB70 /* Sources */,
+				C61133311A8858FA00CEFB70 /* Frameworks */,
+				C61133321A8858FA00CEFB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61133361A8858FA00CEFB70 /* PBXTargetDependency */,
+			);
+			name = MJNashDrawingBoardTests;
+			productName = MJNashDrawingBoardTests;
+			productReference = C61133341A8858FA00CEFB70 /* MJNashDrawingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61133161A8858F900CEFB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Martin Nash";
+				TargetAttributes = {
+					C611331D1A8858F900CEFB70 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C61133331A8858FA00CEFB70 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C611331D1A8858F900CEFB70;
+					};
+				};
+			};
+			buildConfigurationList = C61133191A8858F900CEFB70 /* Build configuration list for PBXProject "MJNashDrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61133151A8858F900CEFB70;
+			productRefGroup = C611331F1A8858F900CEFB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C611331D1A8858F900CEFB70 /* MJNashDrawingBoard */,
+				C61133331A8858FA00CEFB70 /* MJNashDrawingBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C611331C1A8858F900CEFB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C611332C1A8858F900CEFB70 /* Images.xcassets in Resources */,
+				C611335E1A885DED00CEFB70 /* blue-plaid-pattern.png in Resources */,
+				C611332F1A8858F900CEFB70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61133321A8858FA00CEFB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C611331A1A8858F900CEFB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C611334B1A88591700CEFB70 /* ShapesViewController.m in Sources */,
+				C61133531A88592500CEFB70 /* LineChartView.m in Sources */,
+				C61133271A8858F900CEFB70 /* main.m in Sources */,
+				C611334C1A88591700CEFB70 /* ArtisticViewController.m in Sources */,
+				C61133251A8858F900CEFB70 /* AppDelegate.m in Sources */,
+				C611335B1A8859BA00CEFB70 /* RandomPercentGenerator.m in Sources */,
+				C61133551A88592500CEFB70 /* ArtisticView.m in Sources */,
+				C61133541A88592500CEFB70 /* ShapesView.m in Sources */,
+				C611334A1A88591700CEFB70 /* StockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61133301A8858FA00CEFB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C611333B1A8858FA00CEFB70 /* MJNashDrawingBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61133361A8858FA00CEFB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C611331D1A8858F900CEFB70 /* MJNashDrawingBoard */;
+			targetProxy = C61133351A8858FA00CEFB70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C611332D1A8858F900CEFB70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C611332E1A8858F900CEFB70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C611333C1A8858FA00CEFB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C611333D1A8858FA00CEFB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C611333F1A8858FA00CEFB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MJNashDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C61133401A8858FA00CEFB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MJNashDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C61133421A8858FA00CEFB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MJNashDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJNashDrawingBoard.app/Contents/MacOS/MJNashDrawingBoard";
+			};
+			name = Debug;
+		};
+		C61133431A8858FA00CEFB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MJNashDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJNashDrawingBoard.app/Contents/MacOS/MJNashDrawingBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61133191A8858F900CEFB70 /* Build configuration list for PBXProject "MJNashDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C611333C1A8858FA00CEFB70 /* Debug */,
+				C611333D1A8858FA00CEFB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C611333E1A8858FA00CEFB70 /* Build configuration list for PBXNativeTarget "MJNashDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C611333F1A8858FA00CEFB70 /* Debug */,
+				C61133401A8858FA00CEFB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C61133411A8858FA00CEFB70 /* Build configuration list for PBXNativeTarget "MJNashDrawingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61133421A8858FA00CEFB70 /* Debug */,
+				C61133431A8858FA00CEFB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61133161A8858F900CEFB70 /* Project object */;
+}
